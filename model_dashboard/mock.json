@@ -1,0 +1,152 @@
+{
+  "dashboardStats": [
+    {
+      "label": "PARAMETERS",
+      "value": "3.8M",
+      "description": "THE MODELS HYPERPARAMETERS",
+      "intent": "neutral",
+      "icon": "boom",
+      "tag": "weights 💪🏾",
+      "tag1": "activation ⚡️ ReLU",
+      "tag2": "epochs 🔌 10",
+      "tag3": "batch 📦 32",
+      "tag4": "lr 🎯 0.001",
+      "tag5": "dropout 🎲 0.2"
+    },
+    {
+      "label": "ACCURACY",
+      "value": "47%",
+      "description": "FINAL ACCURACY OF THE MODEL",
+      "intent": "positive",
+      "icon": "gear",
+      "direction": "up"
+    },
+    {
+      "label": "FINAL LOSS",
+      "value": "1.400",
+      "description": "THE FINAL LOSS OF THE MODEL",
+      "intent": "negative",
+      "icon": "proccesor",
+      "direction": "down"
+    }
+  ],
+  "chartData": {
+    "accuracy": [
+      { "date": "Epoch 1", "value": 1.678837408219658 },
+      { "date": "Epoch 2", "value": 1.5995015291432244 },
+      { "date": "Epoch 3", "value": 1.560132997461304 },
+      { "date": "Epoch 4", "value": 1.5512891423431117 },
+      { "date": "Epoch 5", "value": 1.5296155517416468 },
+      { "date": "Epoch 6", "value": 1.5290812341219666 },
+      { "date": "Epoch 7", "value": 1.509737255646137 },
+      { "date": "Epoch 8", "value": 1.5197816892092162 },
+      { "date": "Epoch 9", "value": 1.5140805552636127 },
+      { "date": "Epoch 10", "value": 1.540079883632714 }
+    ],
+    "loss": [
+      { "date": "Epoch 1", "value": 0.38803333333333334 },
+      { "date": "Epoch 2", "value": 0.42134444444444447 },
+      { "date": "Epoch 3", "value": 0.43354444444444445 },
+      { "date": "Epoch 4", "value": 0.4409 },
+      { "date": "Epoch 5", "value": 0.4500777777777778 },
+      { "date": "Epoch 6", "value": 0.45503333333333335 },
+      { "date": "Epoch 7", "value": 0.46545555555555557 },
+      { "date": "Epoch 8", "value": 0.466 },
+      { "date": "Epoch 9", "value": 0.4700888888888889 },
+      { "date": "Epoch 10", "value": 0.47003333333333336 }
+    ]
+  },
+  "rebelsRanking": [
+    {
+      "id": 1,
+      "name": "DEEP FEED",
+      "handle": "@FEEDFRWD",
+      "streak": "2 WEEKS STREAK 🔥",
+      "points": 148,
+      "avatar": "/avatars/user_krimson.png",
+      "featured": true,
+      "subtitle": "2 WEEKS STREAK 🔥"
+    },
+    {
+      "id": 2,
+      "name": "CONVULVER",
+      "handle": "@CONVONN",
+      "streak": "",
+      "points": 129,
+      "avatar": "/avatars/user_mati.png"
+    },
+    {
+      "id": 3,
+      "name": "BATCHMAN",
+      "handle": "@BATCHNORMALIZED",
+      "streak": "",
+      "points": 108,
+      "avatar": "/avatars/user_pek.png"
+    }
+  ],
+  "securityStatus": [
+    {
+      "title": "GUARD BOTS",
+      "value": "124/124",
+      "status": "[RUNNING...]",
+      "variant": "success"
+    },
+    {
+      "title": "FIREWALL",
+      "value": "99.9%",
+      "status": "[BLOCKED]",
+      "variant": "success"
+    },
+    {
+      "title": "HTML WARNINGS",
+      "value": "12042",
+      "status": "[ACCESSIBILITY]",
+      "variant": "warning"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1",
+      "title": "PAYMENT RECEIVED",
+      "message": "Your payment to Rampant Studio has been processed successfully.",
+      "timestamp": "2024-07-10T13:39:00Z",
+      "type": "success",
+      "read": false,
+      "priority": "medium"
+    },
+    {
+      "id": "notif-2",
+      "title": "INTRO: JOYCO STUDIO AND V0",
+      "message": "About us - We're a healthcare company focused on accessibility and innovation.",
+      "timestamp": "2024-07-10T13:35:00Z",
+      "type": "info",
+      "read": false,
+      "priority": "low"
+    },
+    {
+      "id": "notif-3",
+      "title": "SYSTEM UPDATE",
+      "message": "Security patches have been applied to all guard bots.",
+      "timestamp": "2024-07-10T12:15:00Z",
+      "type": "info",
+      "read": true,
+      "priority": "medium"
+    },
+    {
+      "id": "notif-4",
+      "title": "FIREWALL ALERT",
+      "message": "Blocked 247 suspicious connection attempts in the last hour.",
+      "timestamp": "2024-07-10T11:45:00Z",
+      "type": "warning",
+      "read": true,
+      "priority": "high"
+    }
+  ],
+  "widgetData": {
+    "location": "Accra, Ghana",
+    "timezone": "UTC-3",
+    "temperature": "18°C",
+    "weather": "Partly Cloudy",
+    "date": "Wednesday, July 10th, 2025"
+  }
+}
